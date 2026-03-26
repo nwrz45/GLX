@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "windows-mcp",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "windows-mcp", "--transport", "sse", "--host", "localhost", "--port", "8000"],
+      "port": 8000
+    }
+  ]
+}
