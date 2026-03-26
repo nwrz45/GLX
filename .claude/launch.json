@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "windows-mcp (streamable-http)",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "windows-mcp", "--transport", "streamable-http", "--host", "localhost", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "windows-mcp (sse)",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "windows-mcp", "--transport", "sse", "--host", "localhost", "--port", "8000"],
+      "port": 8000
+    }
+  ]
+}
